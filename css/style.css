@@ -23,6 +23,15 @@
 
 }
 
+p {
+    word-wrap: break-word;
+}
+
+hr {
+    width:45%;
+    margin:0 auto;
+}
+
 .center {
   display: block;
   margin-left: auto;
