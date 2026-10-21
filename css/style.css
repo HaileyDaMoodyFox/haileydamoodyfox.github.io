@@ -5,21 +5,32 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    a{
-        color: rgb(215, 104, 39);
+a{
+    color: orange
     }
-    button{
-        color: rgb(215, 104, 39);
+button{
+    color: orange
+    }
+body{
+    background: linear-gradient(#84765b, #186f72);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     }
 }
 
 @media (prefers-color-scheme: light) {
-    a{
-        color: rgb(255, 140, 0);
+a{
+    color: blue
     }
-    button{
-        color: rgb(255, 140, 0);
+button{
+    color: blue
     }
+body{
+    background: linear-gradient(#7B89A4, #E7908D);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+}
 
 }
 
@@ -33,9 +44,9 @@ hr {
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 button{
