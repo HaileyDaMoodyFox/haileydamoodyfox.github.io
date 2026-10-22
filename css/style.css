@@ -7,10 +7,10 @@
 @media (prefers-color-scheme: dark) {
 a{
     color: blue;
-    }
+}
 button{
     color: blue
-    }
+}
 p{
     color:black;
 }
@@ -21,7 +21,7 @@ body{
     background: linear-gradient(#7B89A4, #E7908D);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    }
+}
 hr{
     color:black
 }
@@ -32,32 +32,31 @@ footer{
 }
 
 @media (prefers-color-scheme: light) {
-    a{
-        color: blue;
-    }
-    button{
-        color: blue
-    }
-    p{
-        color:black;
-    }
-    h1{
-        color:black;
-    }
-    body{
-        background: linear-gradient(#7B89A4, #E7908D);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-    hr{
-        color:black
-    }
-    footer{
-        color:black;
-    }
-
+a{
+    color: blue;
+}
+button{
+    color: blue
+}
+p{
+    color:black;
+}
+h1{
+    color:black;
+}
+body{
+    background: linear-gradient(#7B89A4, #E7908D);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+hr{
+    color:black
+}
+footer{
+    color:black;
 }
 
+}
 
 }
 
@@ -76,17 +75,11 @@ hr {
     margin-right: auto;
 }
 
-button{
-    cursor: pointer;
-    text-align: center;
-    font-size: 13px;
-}
-
 html {
     color-scheme: light dark;
 }
 
-header, main, div{
+header, main, div, footer{
     text-align: center;
 }
 
@@ -96,11 +89,6 @@ article{
     text-wrap: pretty wrap;
     width: 70ch;
     margin: auto;
-}
-
-footer{
-    text-align: center;
-    font-size: -1rem;
 }
 
 .menubarsoicals ul{
