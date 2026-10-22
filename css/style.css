@@ -6,31 +6,58 @@
 
 @media (prefers-color-scheme: dark) {
 a{
-    color: orange
+    color: blue;
     }
 button{
-    color: orange
+    color: blue
     }
-body{
-    background: linear-gradient(#84765b, #186f72);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    }
+p{
+    color:black;
 }
-
-@media (prefers-color-scheme: light) {
-a{
-    color: blue
-    }
-button{
-    color: blue
-    }
+h1{
+    color:black;
+}
 body{
     background: linear-gradient(#7B89A4, #E7908D);
     background-repeat: no-repeat;
     background-attachment: fixed;
     }
+hr{
+    color:black
 }
+footer{
+    color:black;
+}
+
+}
+
+@media (prefers-color-scheme: light) {
+    a{
+        color: blue;
+    }
+    button{
+        color: blue
+    }
+    p{
+        color:black;
+    }
+    h1{
+        color:black;
+    }
+    body{
+        background: linear-gradient(#7B89A4, #E7908D);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    hr{
+        color:black
+    }
+    footer{
+        color:black;
+    }
+
+}
+
 
 }
 
