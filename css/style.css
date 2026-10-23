@@ -4,83 +4,26 @@
     font-family: pt-mono-ttf;
 }
 
-@media (prefers-color-scheme: dark) {
-a{
-    color: blue;
-}
-button{
-    color: blue
-}
-p{
-    color:black;
-}
-h1{
-    color:black;
-}
 body{
     background: linear-gradient(#7B89A4, #E7908D);
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-hr{
-    color:black
-}
-footer{
-    color:black;
-}
-
-}
-
-@media (prefers-color-scheme: light) {
-a{
-    color: blue;
-}
-button{
-    color: blue
-}
-p{
-    color:black;
-}
-h1{
-    color:black;
-}
-body{
-    background: linear-gradient(#7B89A4, #E7908D);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-hr{
-    color:black
-}
-footer{
-    color:black;
-}
-
-}
-
 }
 
 p {
     word-wrap: break-word;
 }
 
+a, p, h1{
+    color: blue;
+}
+p, h1, footer{
+    color:black;
+}
+
 hr {
-    width:45%;
+    width:50%;
     margin:0 auto;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-html {
-    color-scheme: light dark;
-}
-
-header, main, div, footer{
-    text-align: center;
 }
 
 article{
@@ -89,6 +32,16 @@ article{
     text-wrap: pretty wrap;
     width: 70ch;
     margin: auto;
+}
+
+header, main, div, footer{
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .menubarsoicals ul{
