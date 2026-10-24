@@ -31,6 +31,10 @@ footer, body, main, header, div, hr, h1{
     overflow: auto;
 }
 
+p, a, article, section{
+    overflow: visible;
+}
+
 html{
     color-scheme: light dark;
     border: solid pink;
