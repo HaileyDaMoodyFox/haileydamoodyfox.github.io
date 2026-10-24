@@ -5,7 +5,8 @@
 }
 
 body{
-    background: linear-gradient(#7B89A4, #E7908D);
+    background-image: url(/Images/dusk.webp);
+    background-size: 1920px;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
