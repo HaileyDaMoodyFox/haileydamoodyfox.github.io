@@ -28,7 +28,7 @@ hr {
 }
 
 footer, body, main, header, div, hr, h1{
-    overflow: audo;
+    overflow: auto;
 }
 
 p, a, article, section{
