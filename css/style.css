@@ -1,7 +1,10 @@
-
 @font-face{
-    src: url(fonts/pt-mono.ttf);
-    font-family: pt-mono-ttf;
+    src: url(fonts/ComicMono);
+    font-family: 'ComicMono';
+}
+
+h1, h2, h3, p, a{
+    font-family: 'ComicMono' , Monospace;
 }
 
 body{
