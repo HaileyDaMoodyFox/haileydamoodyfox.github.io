@@ -39,7 +39,7 @@ header, main, div, footer{
     text-align: center;
 }
 
-footer, body, main, header, div, article, section, hr, p, h1, a{
+footer, body, main, header, div, hr, h1{
     overflow: auto;
 }
 
