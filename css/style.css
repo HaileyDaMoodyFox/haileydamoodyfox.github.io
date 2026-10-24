@@ -9,6 +9,7 @@ body{
     background-size: 1920px;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    overflow: auto;
 }
 
 p {
