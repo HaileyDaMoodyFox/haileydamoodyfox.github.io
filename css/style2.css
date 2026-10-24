@@ -1,0 +1,53 @@
+
+@font-face{
+    src: url(fonts/pt-mono.ttf);
+    font-family: pt-mono-ttf;
+}
+
+a{
+    color: hotpink
+}
+body{
+    background: linear-gradient(black, black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div, footer, hr, p, h1, h2, h3{
+    color:pink;
+
+}
+
+p {
+    word-wrap: break-word;
+}
+
+hr {
+    width:100%;
+    margin:0 auto;
+}
+
+html{
+    color-scheme: light dark;
+    border: solid pink;
+    border-width: -1rem;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    padding-left: inherit;
+    padding-right: inherit;
+
+}
+
+article{
+    font-family: 'pt-mono-ttf';
+    font-size: 1rem;
+    text-wrap: pretty wrap;
+    width: 85ch;
+    margin: left;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
