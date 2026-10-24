@@ -28,7 +28,7 @@ hr {
 }
 
 footer, body, main, header, div, hr, h1{
-    overflow: auto;
+    overflow: hidden;
 }
 
 p, a, article, section{
