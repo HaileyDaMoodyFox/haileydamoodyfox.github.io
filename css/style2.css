@@ -48,10 +48,7 @@ html{
 
 article{
     font-family: 'pt-mono-ttf';
-    font-size: 1rem;
-    text-wrap: pretty wrap;
     width: 85ch;
-    margin: left;
 }
 
 .center {
