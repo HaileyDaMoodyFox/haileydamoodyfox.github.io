@@ -1,12 +1,8 @@
-
 @font-face{
     src: url(fonts/pt-mono.ttf);
     font-family: pt-mono-ttf;
 }
 
-a{
-    color: hotpink
-}
 body{
     background: linear-gradient(black, black);
     background-repeat: no-repeat;
@@ -15,7 +11,10 @@ body{
 
 div, footer, hr, p, h1, h2, h3{
     color:pink;
+}
 
+a{
+    color: hotpink
 }
 
 p {
@@ -27,12 +26,9 @@ hr {
     margin:0 auto;
 }
 
-footer, body, main, header, div, hr, h1{
-    overflow: auto;
-}
-
-p, a, article, section{
-    overflow: auto;
+article{
+    font-family: 'pt-mono-ttf';
+    width: 85ch;
 }
 
 html{
@@ -43,12 +39,10 @@ html{
     padding-bottom: inherit;
     padding-left: inherit;
     padding-right: inherit;
-
 }
 
-article{
-    font-family: 'pt-mono-ttf';
-    width: 85ch;
+footer, body, main, header, div, hr, h1{
+    overflow: auto;
 }
 
 .center {
