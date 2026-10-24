@@ -32,6 +32,7 @@ article{
     font-size: 1rem;
     text-wrap: pretty wrap;
     width: 70ch;
+    overflow: hidden;
     margin: auto;
 }
 
