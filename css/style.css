@@ -9,7 +9,6 @@ body{
     background-size: 1920px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow: auto;
 }
 
 p {
@@ -38,6 +37,10 @@ article{
 
 header, main, div, footer{
     text-align: center;
+}
+
+footer, body, main, header, div, article, hr, p, h1, a{
+    overflow: auto;
 }
 
 .center {
