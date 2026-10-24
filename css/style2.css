@@ -28,11 +28,11 @@ hr {
 }
 
 footer, body, main, header, div, hr, h1{
-    overflow: hidden;
+    overflow: audo;
 }
 
 p, a, article, section{
-    overflow: hidden;
+    overflow: auto;
 }
 
 html{
