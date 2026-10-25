@@ -52,35 +52,3 @@ footer, body, main, header, div, hr, h1{
     margin-left: auto;
     margin-right: auto;
 }
-
-.menubarsoicals ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.mynavbar ul{
-    list-style-type: none;
-    background-color: rgb(109, 115, 168);
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-}
-
-.mynavbar a{
-    color: white;
-    text-decoration: none;
-    padding: 8px;
-    display: block;
-}
-
-.mynavbar a:hover{
-    background-color: rgb(138, 146, 222);
-}
-
-.mynavbar li{
-    float: left;
-
-}
-
-
